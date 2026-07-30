@@ -12,7 +12,7 @@ const barbers = [
 export function Barbers() {
   return (
     <section id="barbers" className="mx-auto max-w-[1600px] px-5 pb-20 md:px-10 md:pb-28">
-      <h2 className="border-b border-border pb-6 text-4xl sm:text-5xl">Behind the Chairs</h2>
+      <h2 className="border-b border-border pb-6 text-4xl sm:text-5xl">Three Pairs of Hands</h2>
 
       <div className="mt-10 grid gap-8 sm:grid-cols-3">
         {barbers.map((b) => (
