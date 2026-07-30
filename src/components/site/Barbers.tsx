@@ -3,10 +3,11 @@ import barber2 from "@/assets/barber-2.jpg";
 import barber3 from "@/assets/barber-3.jpg";
 
 const barbers = [
-  { name: "Ray Mulvaney", role: "Owner · Scissor work & beards", img: barber1 },
-  { name: "Sol Adeyemi", role: "Fades & line-ups", img: barber2 },
-  { name: "Nina Kovač", role: "Texture cuts & razor detail", img: barber3 },
+  { name: "Ray Mulvaney", role: "Owner · Scissors and second opinions", img: barber1 },
+  { name: "Sol Adeyemi", role: "Fades that hold the line", img: barber2 },
+  { name: "Nina Kovač", role: "Texture, weight and razor detail", img: barber3 },
 ];
+
 
 export function Barbers() {
   return (
