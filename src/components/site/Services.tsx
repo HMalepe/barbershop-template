@@ -42,8 +42,9 @@ export function Services() {
   return (
     <section id="services" className="mx-auto max-w-[1600px] px-5 py-20 md:px-10 md:py-28">
       <div className="flex flex-wrap items-end justify-between gap-4 border-b border-border pb-6">
-        <h2 className="text-4xl sm:text-5xl">Services</h2>
-        <p className="label-caps text-muted-foreground">Prices include the tidy-up</p>
+        <h2 className="text-4xl sm:text-5xl">The Menu</h2>
+        <p className="label-caps text-muted-foreground">Prices flat, edges sharp</p>
+
       </div>
 
       <ul>
