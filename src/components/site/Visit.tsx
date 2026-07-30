@@ -13,11 +13,12 @@ export function Visit() {
       <div className="mx-auto max-w-[1600px] px-5 py-20 md:px-10 md:py-28">
         <div className="grid gap-12 md:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
           <div>
-            <h2 className="text-4xl sm:text-5xl lg:text-[3.5rem]">Come in</h2>
+            <h2 className="text-4xl sm:text-5xl lg:text-[3.5rem]">Take a seat</h2>
             <p className="mt-6 max-w-sm text-sm text-bone/70">
-              Walk-ins take the first free chair. Booking by phone keeps your
-              barber, your time and your usual number two.
+              Walk in and the first free chair is yours. Ring ahead and you keep
+              your barber, your hour and your usual number two.
             </p>
+
             <div className="mt-8 space-y-1">
               <p className="label-caps text-bone/50">Address</p>
               <p className="text-sm">42 Colvin Street, Shoreditch, London E2 7QD</p>

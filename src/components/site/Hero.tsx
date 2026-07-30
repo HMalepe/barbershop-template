@@ -19,30 +19,32 @@ export function Hero() {
           />
 
           <p className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/85 to-transparent p-6 pt-16 font-display text-2xl leading-tight text-bone sm:text-3xl">
-            A cut that carries
+            A steady hand,
             <br />
-            the whole week
+            a straight edge
           </p>
         </div>
 
         <div className="flex flex-col justify-between gap-10 md:pl-4">
           <h2 className="text-4xl sm:text-5xl lg:text-6xl">
-            Sharp Work,
+            Iron Hand,
             <br />
-            No Theatre
+            Light Touch
           </h2>
 
           <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
             <div className="max-w-md">
-              <p className="text-sm font-medium">Classic barbering for men who don't fuss.</p>
+              <p className="text-sm font-medium">Barbering with the fuss cut out.</p>
               <p className="mt-2 text-sm text-muted-foreground">
-                Clippers, shears and a straight razor. Walk in tired, walk out
-                looking like you meant it — thirty-five minutes, no upsell.
+                Clippers, shears and a razor honed to the point of an argument.
+                Sit down heavy, get up handled — thirty-five minutes, no upsell,
+                no sermon about sea salt spray.
               </p>
             </div>
             <BookButton />
           </div>
         </div>
+
       </div>
     </section>
   );
