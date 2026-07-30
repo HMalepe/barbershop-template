@@ -15,8 +15,9 @@ export function Hero() {
             alt="Barber finishing a fade on a seated client"
             width={912}
             height={1200}
-            className="h-full w-full object-cover"
+            className="aspect-[3/4] h-full w-full object-cover md:max-h-[560px]"
           />
+
           <p className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/85 to-transparent p-6 pt-16 font-display text-2xl leading-tight text-bone sm:text-3xl">
             A cut that carries
             <br />
