@@ -10,14 +10,14 @@ export function Gallery() {
         <p className="label-caps text-muted-foreground">Shot in the chair, unedited</p>
       </div>
 
-      <div className="mt-10 grid gap-4 md:grid-cols-12 md:grid-rows-[repeat(2,minmax(0,1fr))] md:h-[660px]">
+      <div className="mt-10 grid gap-4 md:grid-cols-12 md:grid-rows-2">
         <img
           src={fade}
           alt="Close-up of a freshly cut skin fade"
           width={900}
           height={1200}
           loading="lazy"
-          className="aspect-[3/4] w-full object-cover md:aspect-auto md:col-span-5 md:row-span-2 md:h-full"
+          className="aspect-[3/4] w-full object-cover md:aspect-auto md:col-span-5 md:row-span-2 md:h-[664px]"
         />
         <img
           src={shave}
@@ -25,7 +25,7 @@ export function Gallery() {
           width={1400}
           height={900}
           loading="lazy"
-          className="aspect-[16/9] w-full object-cover md:aspect-auto md:col-span-7 md:h-full"
+          className="aspect-[16/9] w-full object-cover md:aspect-auto md:col-span-7 md:h-[324px]"
         />
         <img
           src={tools}
@@ -33,7 +33,7 @@ export function Gallery() {
           width={1000}
           height={1000}
           loading="lazy"
-          className="aspect-[16/9] w-full object-cover md:aspect-auto md:col-span-7 md:h-full"
+          className="aspect-[16/9] w-full object-cover md:aspect-auto md:col-span-7 md:h-[324px]"
         />
       </div>
 
