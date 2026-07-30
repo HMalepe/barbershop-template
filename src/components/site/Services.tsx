@@ -1,41 +1,42 @@
 const services = [
   {
     name: "The Cut",
-    detail: "Consult, clipper and scissor work, wash and finish.",
+    detail: "Talk it through, shear it down, wash it off. The house standard.",
     time: "45 min",
     price: "£28",
   },
   {
     name: "Skin Fade",
-    detail: "Bald-to-blend gradient with a razored line-up.",
+    detail: "Bald to blend with nothing left to argue about at the edges.",
     time: "50 min",
     price: "£32",
   },
   {
     name: "Beard Trim",
-    detail: "Shaped with shears, edged with the razor, oiled.",
+    detail: "Shaped with shears, settled with the razor, sent off oiled.",
     time: "25 min",
     price: "£18",
   },
   {
     name: "Hot Towel Shave",
-    detail: "Steamed towels, badger brush lather, straight razor.",
+    detail: "Steam, badger brush, one blade, zero hurry. Close as it gets.",
     time: "40 min",
     price: "£30",
   },
   {
     name: "Cut & Beard",
-    detail: "The full reset. Book it before a wedding, not after.",
+    detail: "The full reset. Book it before the wedding, not the apology.",
     time: "70 min",
     price: "£42",
   },
   {
     name: "Line-Up",
-    detail: "Edges only, in and out. For the week two touch-up.",
+    detail: "Edges only. In, out, back to looking like week one.",
     time: "15 min",
     price: "£12",
   },
 ];
+
 
 export function Services() {
   return (
