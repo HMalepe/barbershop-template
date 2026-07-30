@@ -3,11 +3,12 @@ import { Menu, X } from "lucide-react";
 import { BookButton } from "./BookButton";
 
 const links = [
-  { label: "Services", href: "#services" },
-  { label: "Gallery", href: "#gallery" },
+  { label: "Menu", href: "#services" },
+  { label: "Evidence", href: "#gallery" },
   { label: "Barbers", href: "#barbers" },
   { label: "Visit", href: "#visit" },
 ];
+
 
 export function SiteNav() {
   const [open, setOpen] = useState(false);
