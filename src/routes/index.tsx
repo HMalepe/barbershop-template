@@ -7,9 +7,10 @@ import { Gallery } from "@/components/site/Gallery";
 import { Barbers } from "@/components/site/Barbers";
 import { Visit } from "@/components/site/Visit";
 
-const title = "Ironhand Barbers — Cuts, Beards & Hot Towel Shaves in Shoreditch";
+const title = "Ironhand Barbers — Iron Hand, Light Touch · Shoreditch";
 const description =
-  "A three-chair barbershop in Shoreditch. Skin fades, scissor cuts, beard shaping and straight-razor shaves from £12. Walk-ins welcome, Tue–Sun.";
+  "A three-chair barbershop in Shoreditch cutting hair that holds its edge. Skin fades, scissor cuts, beard shaping and straight-razor shaves from £12. Walk-ins welcome, Tue–Sun.";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
