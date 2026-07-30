@@ -6,8 +6,9 @@ export function Gallery() {
   return (
     <section id="gallery" className="mx-auto max-w-[1600px] px-5 py-20 md:px-10 md:py-28">
       <div className="flex flex-wrap items-end justify-between gap-4">
-        <h2 className="text-4xl sm:text-5xl">The Work</h2>
-        <p className="label-caps text-muted-foreground">Shot in the chair, unedited</p>
+        <h2 className="text-4xl sm:text-5xl">The Evidence</h2>
+        <p className="label-caps text-muted-foreground">Straight from the chair, no filter</p>
+
       </div>
 
       <div className="mt-10 grid gap-4 md:grid-cols-12 md:grid-rows-2">
